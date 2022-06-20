@@ -1,0 +1,80 @@
+@font-face {
+
+    src: url('../Fonts/Poppins-Light.otf');
+}
+
+@font-face {
+    src: url('../Fonts/Poppins-Regular.otf');
+
+}
+@font-face {
+    src: url('../Fonts/Poppins-SemiBold.otf');
+
+}
+@font-face {
+    src: url('../Fonts/Axiforma-Medium.otf');
+
+}
+
+.login-pane-root{
+    -fx-background-color: #13072B;
+}
+.style-font-white{
+    -fx-font-family: "Poppins Light";
+    -fx-text-fill: white;
+
+}
+.style-font-black{
+    -fx-font-family: "Poppins Light";
+    -fx-text-fill: black;
+}
+.style-fontRegular-black{
+    -fx-font-family: "Poppins Regular";
+    -fx-text-fill: black;
+}
+.style-fontSemiBold-black{
+    -fx-font-family: "Poppins SemiBold";
+    -fx-text-fill: black;
+}
+.button-Iniciar{
+    -fx-background-radius: 10px;
+    -fx-background-color: #0DF5E3 ;
+    -fx-font-size: 11;
+    -fx-font-family: "Poppins Light";
+    -fx-text-fill: black;
+
+}
+.button-Salir{
+    -fx-background-radius: 10px;
+    -fx-background-color: #000000;
+    -fx-font-size: 11;
+    -fx-font-family: "Poppins Light";
+    -fx-text-fill: white;
+}
+
+.TEXT{
+    -fx-font-size: 19;
+    -fx-font-family: "Poppins Regular";
+}
+.TEXT22-BLACK{
+    -fx-font-size: 22;
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins SemiBold";
+}
+
+
+.label-password{
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill:#717171;
+}
+.label-username {
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #717171;
+
+}
+Pane Label{
+    -fx-text-fill: white;
+}
+
